@@ -196,3 +196,11 @@ Received Import Request.
 Start importing Assets/Scenes/SlimeScene.unity using Guid(835a6d9074c293c41907335c5bd2e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59a366f4f09822634a1c17335ea3217') in 0.000825 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 408.861360 seconds.
+  path: Assets/Scenes/ShopScene.unity
+  artifactKey: Guid(6315f96e89aa5054ea8dc8d2009e0d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ShopScene.unity using Guid(6315f96e89aa5054ea8dc8d2009e0d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c788bf79b294adeca58ebf40fa319b3') in 0.000849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
