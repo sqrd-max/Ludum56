@@ -37,22 +37,20 @@ namespace UnityEngine.UI
 			this.onValueChanged.AddListener(OnValueChanged);
 		}
 		
-		protected override void OnValidate()
+		protected void OnValidate()
 		{
-			base.OnValidate();
-			
 			if (this.group == null)
 			{
 				ToggleGroup tg = this.GetComponentInParent<ToggleGroup>();
-				
+
 				if (tg != null)
 				{
 					this.group = tg;
 				}
 			}
-			
+
 			LayoutElement le = this.gameObject.GetComponent<LayoutElement>();
-			
+
 			if (le != null)
 			{
 				if (this.isOn)
@@ -65,6 +63,7 @@ namespace UnityEngine.UI
 				}
 			}
 		}
+
 		
 		public void OnValueChanged(bool state)
 		{
