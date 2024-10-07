@@ -47,13 +47,18 @@ public class BattleManager : MonoBehaviour
     void Start()
     {
         Slime = Slime.instance;
+        if (Slime == null)
+        {
+            Debug.LogError("Slime instance is not initialized.");
+            return;
+        }
         var rnd = new System.Random();
         petHealth = 100;
         oppHealth = 100;
         petLevel = Slime.slimeLvl;
         //petLevel = 10;
         petColor = Slime.colour;
-        //petColor = 0;
+        //petColor = 0
         //petColor = 1;
         //petColor = 2;
         oppLevel = petLevel + rnd.Next(-2, 2);
