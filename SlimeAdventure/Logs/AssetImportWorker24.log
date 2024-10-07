@@ -1,0 +1,1047 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 15773 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker24
+-projectPath
+C:/Users/Andrei/Desktop/Unity_Projects/Ludum56/SlimeAdventure
+-logFile
+Logs/AssetImportWorker24.log
+-srvPort
+49226
+Successfully changed project path to: C:/Users/Andrei/Desktop/Unity_Projects/Ludum56/SlimeAdventure
+C:/Users/Andrei/Desktop/Unity_Projects/Ludum56/SlimeAdventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34696] Host "[IP] 192.168.0.252 [Port] 0 [Flags] 2 [Guid] 1491607578 [EditorId] 1491607578 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQJJ33K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34696] Host "[IP] 192.168.0.252 [Port] 0 [Flags] 2 [Guid] 1491607578 [EditorId] 1491607578 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQJJ33K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 27.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Unity/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andrei/Desktop/Unity_Projects/Ludum56/SlimeAdventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7886 MB
+    Driver:   31.0.12046.24001
+Initialize mono
+Mono path[0] = 'C:/Unity/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009255 seconds.
+- Loaded All Assemblies, in  0.446 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 828ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 14.99 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.010 seconds
+Domain Reload Profiling: 1876ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (431ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1011ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (789ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (222ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 11.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (73.4 KB). Loaded Objects now: 2988.
+Memory consumption went from 112.4 MB to 112.4 MB.
+Total: 8.956400 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.111700 ms MarkObjects: 8.313900 ms  DeleteObjects: 0.186200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 363939.246210 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Round Potion/MAGENTA/Sprites/Round Potion - MAGENTA - 0001.png
+  artifactKey: Guid(4a49115de49e8924291524dcdd55aa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Round Potion/MAGENTA/Sprites/Round Potion - MAGENTA - 0001.png using Guid(4a49115de49e8924291524dcdd55aa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba3fba485bef703cc3abdc53e80c12a') in 0.203152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 17.52 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.713 seconds
+Domain Reload Profiling: 2379ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (947ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (284ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 16.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 2998.
+Memory consumption went from 116.7 MB to 116.7 MB.
+Total: 12.746000 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.107700 ms MarkObjects: 12.021700 ms  DeleteObjects: 0.168000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79.768263 seconds.
+  path: Assets/BayatGames
+  artifactKey: Guid(879c2ee84244d62459b2911c0eb0de39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames using Guid(879c2ee84244d62459b2911c0eb0de39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e59e91c27bb9d4fa73070ec53e2922d') in 0.002409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.637 seconds
+Refreshing native plugins compatible for Editor in 19.73 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.618 seconds
+Domain Reload Profiling: 2252ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (942ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (297ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 10.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3001.
+Memory consumption went from 118.7 MB to 118.6 MB.
+Total: 8.705900 ms (FindLiveObjects: 0.259400 ms CreateObjectMapping: 0.125700 ms MarkObjects: 8.201900 ms  DeleteObjects: 0.117600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 333.472203 seconds.
+  path: Assets/karsiori/Sprite Inspector Preset.preset
+  artifactKey: Guid(c6f4fd47b96dfaa4293fff74a5291dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprite Inspector Preset.preset using Guid(c6f4fd47b96dfaa4293fff74a5291dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9adcb2fa2b571719a1bb206ba430ae') in 0.021881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.502618 seconds.
+  path: Assets/karsiori/Animations
+  artifactKey: Guid(59949407d15924c46ac7b3264af23f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Animations using Guid(59949407d15924c46ac7b3264af23f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14915fe49cb808ace2935c6d9fc55f70') in 0.000762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.722831 seconds.
+  path: Assets/karsiori/Animations/GEM 1
+  artifactKey: Guid(5d8ba56c7740a774d95dec8f374c1cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Animations/GEM 1 using Guid(5d8ba56c7740a774d95dec8f374c1cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580473423ac3057022813a40b8d50d25') in 0.000741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.054294 seconds.
+  path: Assets/karsiori/Sprites
+  artifactKey: Guid(b64ff26b04885674399416fa9cd3ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites using Guid(b64ff26b04885674399416fa9cd3ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84574356abba1e9696b0bf8767c251c') in 0.000746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.756796 seconds.
+  path: Assets/karsiori/Sprites/GEM 3
+  artifactKey: Guid(46a1e3a16b8f9a740a704ec01ec50703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3 using Guid(46a1e3a16b8f9a740a704ec01ec50703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea3a1c192d6e566c5b104d3e75b24a4') in 0.000743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.056754 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GEM 3 - BLUE - Spritesheet.png
+  artifactKey: Guid(d34293d9c69bac244b446178e8498b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GEM 3 - BLUE - Spritesheet.png using Guid(d34293d9c69bac244b446178e8498b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5aa238fb54e5cbf68f4b964f22a797') in 0.189559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GEM 3 - GOLD - Spritesheet.png
+  artifactKey: Guid(880ac0a011a6ecc4ea2d1e1a128e4ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GEM 3 - GOLD - Spritesheet.png using Guid(880ac0a011a6ecc4ea2d1e1a128e4ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a208d0006dd14a79e8bae223aeac67ba') in 0.032884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GEM 3 - LIGHT GREEN - Spritesheet.png
+  artifactKey: Guid(999d4177f0b76fc46b5f0d131a5b8349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GEM 3 - LIGHT GREEN - Spritesheet.png using Guid(999d4177f0b76fc46b5f0d131a5b8349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ac3870304b45a91857bd75a8b6f1d6') in 0.030016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GEM 3 - LILAC - Spritesheet.png
+  artifactKey: Guid(6311ecb1e3b9c16468de43e0366ca5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GEM 3 - LILAC - Spritesheet.png using Guid(6311ecb1e3b9c16468de43e0366ca5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22c6854abcff9b77213ea3e5dace6bb') in 0.028329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.578818 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GOLD
+  artifactKey: Guid(60febcf40721f654ba824355d8e49eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GOLD using Guid(60febcf40721f654ba824355d8e49eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be62790d1e4fe9f626b08307f3f86569') in 0.000857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062660 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0000.png
+  artifactKey: Guid(c475f19807ded274186edb438b0106d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0000.png using Guid(c475f19807ded274186edb438b0106d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecc9c84e61ca82fd8b27a542494f227') in 0.024596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003592 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0008.png
+  artifactKey: Guid(17f63302eee6ce44486dc2ea20ae0196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0008.png using Guid(17f63302eee6ce44486dc2ea20ae0196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9898271c34e5ae933bd863ae81f58c20') in 0.030538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0004.png
+  artifactKey: Guid(4df90539fa308bd4482e874055d91a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0004.png using Guid(4df90539fa308bd4482e874055d91a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c8c85ca7e609a6ee8acfc902e808a4') in 0.029631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0006.png
+  artifactKey: Guid(dc4adec00109513489e65f07d6e42ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0006.png using Guid(dc4adec00109513489e65f07d6e42ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62bbd74b2728ba021c5e429df8784b1') in 0.024419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0003.png
+  artifactKey: Guid(b7198fd9984d5f148bbf3efa4a7e2b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0003.png using Guid(b7198fd9984d5f148bbf3efa4a7e2b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e04de07b8de6aec902c8b319c95967') in 0.023871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0007.png
+  artifactKey: Guid(d9f516e8c7fe1954abd84c03a877a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/GOLD/GEM 3 - GOLD - 0007.png using Guid(d9f516e8c7fe1954abd84c03a877a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99648663bbf7aab2685627f3ddac884') in 0.024327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.031520 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/LIGHT GREEN/GEM 3 - LIGHT GREEN - 0001.png
+  artifactKey: Guid(b1bbf5929e59830429820809ccf6018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/LIGHT GREEN/GEM 3 - LIGHT GREEN - 0001.png using Guid(b1bbf5929e59830429820809ccf6018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b165a8c80c524fa78a311f4557c0d87b') in 0.034634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/LIGHT GREEN/GEM 3 - LIGHT GREEN - 0006.png
+  artifactKey: Guid(335719b1169aad44a833879b705f0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/LIGHT GREEN/GEM 3 - LIGHT GREEN - 0006.png using Guid(335719b1169aad44a833879b705f0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023c0cd0479615ddc882e90b7481d312') in 0.025453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/LIGHT GREEN/GEM 3 - LIGHT GREEN - 0010.png
+  artifactKey: Guid(3357d333d51590b45af9b26267635e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/LIGHT GREEN/GEM 3 - LIGHT GREEN - 0010.png using Guid(3357d333d51590b45af9b26267635e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7801b04960a68eaa777e88509e22075') in 0.024958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/karsiori/Sprites/GEM 3/LIGHT GREEN/GEM 3 - LIGHT GREEN - 0008.png
+  artifactKey: Guid(c2372f1eb0bfa6846ab9c9fd9f85cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 3/LIGHT GREEN/GEM 3 - LIGHT GREEN - 0008.png using Guid(c2372f1eb0bfa6846ab9c9fd9f85cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fb613727b4e84d7dbb7065a81c5d6a') in 0.031111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.773103 seconds.
+  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - DARK BLUE - Spritesheet.png
+  artifactKey: Guid(1c38be83aff776d43bdd9e237f9afa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - DARK BLUE - Spritesheet.png using Guid(1c38be83aff776d43bdd9e237f9afa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68776331d6b5daf9c40e063ae99f7553') in 0.034184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.258357 seconds.
+  path: Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0001.png
+  artifactKey: Guid(945c156a3f22cf946b39326f99be0206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0001.png using Guid(945c156a3f22cf946b39326f99be0206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed97a0689e36a74acbf14a396a6126a') in 0.025705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0009.png
+  artifactKey: Guid(ec36f410baf19364a846f4ede80d6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0009.png using Guid(ec36f410baf19364a846f4ede80d6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720459033b7edbababfc50b0ef7cfaaa') in 0.027799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.997419 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/GEM 7 - DARK BLUE - Spritesheet.png
+  artifactKey: Guid(44b204df224d6d1499f886bb051a4eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/GEM 7 - DARK BLUE - Spritesheet.png using Guid(44b204df224d6d1499f886bb051a4eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f37d00a21f2bf418b0bebdb003a3cca') in 0.034068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/GEM 7 - TURQUOISE - Spritesheet.png
+  artifactKey: Guid(0dccc1e20997086469c5eae7c3256c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/GEM 7 - TURQUOISE - Spritesheet.png using Guid(0dccc1e20997086469c5eae7c3256c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fda50bd8aff2fd77f9934531d24a5d8') in 0.029921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.557261 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/LILAC/GEM 7 - LILAC - 0001.png
+  artifactKey: Guid(913bd79d23411bd46ad526802e6bfd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/LILAC/GEM 7 - LILAC - 0001.png using Guid(913bd79d23411bd46ad526802e6bfd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172f264da14477a439d61c505ddfdfa') in 0.043265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/LILAC/GEM 7 - LILAC - 0008.png
+  artifactKey: Guid(66d6ad65d84591448a7b394912f7cc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/LILAC/GEM 7 - LILAC - 0008.png using Guid(66d6ad65d84591448a7b394912f7cc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbe7d390b3f98526b3d5717ef8b3d41') in 0.034924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/LILAC/GEM 7 - LILAC - 0005.png
+  artifactKey: Guid(088ab1a9dcfc09a4883f05e3b8c42cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/LILAC/GEM 7 - LILAC - 0005.png using Guid(088ab1a9dcfc09a4883f05e3b8c42cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68143165a769590063973caaf23aed94') in 0.033731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.310785 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/PURPLE/GEM 7 - PURPLE - 0001.png
+  artifactKey: Guid(95c05d28b9eb20140af77a2cbb6a1f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/PURPLE/GEM 7 - PURPLE - 0001.png using Guid(95c05d28b9eb20140af77a2cbb6a1f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5368f2e21c18cefe4c1390019ba4fcf') in 0.042025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/PURPLE/GEM 7 - PURPLE - 0011.png
+  artifactKey: Guid(2e6dc69b1b3ac60418bdf00817a10a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/PURPLE/GEM 7 - PURPLE - 0011.png using Guid(2e6dc69b1b3ac60418bdf00817a10a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f36612c233699d311549392cfc3a019') in 0.024683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/PURPLE/GEM 7 - PURPLE - 0007.png
+  artifactKey: Guid(868b6de817be524478c1ee7b949a0ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/PURPLE/GEM 7 - PURPLE - 0007.png using Guid(868b6de817be524478c1ee7b949a0ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197152cfa68618f247974a9c264c201e') in 0.025885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.844683 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/GEM 8 - DARK BLUE - Spritesheet.png
+  artifactKey: Guid(dbf8e0f33fcd09f4cb568d23b87b6458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/GEM 8 - DARK BLUE - Spritesheet.png using Guid(dbf8e0f33fcd09f4cb568d23b87b6458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0880b895c4c54b475a298fe365469f01') in 0.031766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.652622 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/LIGHT GREEN/GEM 8 - LIGHT GREEN - 0001.png
+  artifactKey: Guid(c0f55b569a2e78843a494f1bcaa426b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/LIGHT GREEN/GEM 8 - LIGHT GREEN - 0001.png using Guid(c0f55b569a2e78843a494f1bcaa426b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbeef28f6ef51a782a31aa9ee8d83e5') in 0.044868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/LIGHT GREEN/GEM 8 - LIGHT GREEN - 0009.png
+  artifactKey: Guid(8805b7c4e9ce8a646bccf2d95043ee4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/LIGHT GREEN/GEM 8 - LIGHT GREEN - 0009.png using Guid(8805b7c4e9ce8a646bccf2d95043ee4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a728dc5bcd999c9e7ce5993f9eaa1e') in 0.033913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.209381 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/RED/GEM 8 - RED - 0001.png
+  artifactKey: Guid(d0c4b497969f29445baca31fb20783c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/RED/GEM 8 - RED - 0001.png using Guid(d0c4b497969f29445baca31fb20783c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f88cc6fcc8de3e2e5cc7fb47a7ab53b') in 0.029464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/RED/GEM 8 - RED - 0006.png
+  artifactKey: Guid(2a436ea118524df4a918269075de07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/RED/GEM 8 - RED - 0006.png using Guid(2a436ea118524df4a918269075de07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be25c8293d0005bff1ed663fe1d1f9b1') in 0.025748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.780794 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/TURQUOISE/GEM 8 - TURQUOISE - 0001.png
+  artifactKey: Guid(321470079a7f07f4ca1fdd5c7e6186e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/TURQUOISE/GEM 8 - TURQUOISE - 0001.png using Guid(321470079a7f07f4ca1fdd5c7e6186e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36f9ff98695fc2f9ff4d3b135e23928') in 0.023267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/TURQUOISE/GEM 8 - TURQUOISE - 0009.png
+  artifactKey: Guid(85cafd038af244a4984c31a1d2ef3a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/TURQUOISE/GEM 8 - TURQUOISE - 0009.png using Guid(85cafd038af244a4984c31a1d2ef3a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92edb26b3277d54828bfeeacb53caf4') in 0.020631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.077207 seconds.
+  path: Assets/karsiori/Sprites/GEM 9/GEM 9 - DARK BLUE - Spritesheet.png
+  artifactKey: Guid(f8faeff45d396c841a30a50753fd7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 9/GEM 9 - DARK BLUE - Spritesheet.png using Guid(f8faeff45d396c841a30a50753fd7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637673d69d17511a026fdf760ee8b6b2') in 0.030336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/karsiori/Sprites/GEM 9/GEM 9 - TURQUOISE - Spritesheet.png
+  artifactKey: Guid(726dfe101549eef46b6c2462b7bf8b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 9/GEM 9 - TURQUOISE - Spritesheet.png using Guid(726dfe101549eef46b6c2462b7bf8b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406a04440099fc2e25455611ad61eb99') in 0.024158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.014907 seconds.
+  path: Assets/karsiori/Sprites/GEM 9/LILAC/GEM 9 - LILAC - 0001.png
+  artifactKey: Guid(95a5ed5cd2d3c2746813049ac97bcdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 9/LILAC/GEM 9 - LILAC - 0001.png using Guid(95a5ed5cd2d3c2746813049ac97bcdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035d8292c1b84fb281805e38f509b2ee') in 0.031528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/karsiori/Sprites/GEM 9/LILAC/GEM 9 - LILAC - 0009.png
+  artifactKey: Guid(6fddf3aa05e6b7d44b885a3554a4824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 9/LILAC/GEM 9 - LILAC - 0009.png using Guid(6fddf3aa05e6b7d44b885a3554a4824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55c6f6ded3e868a212b4519523f0cbc') in 0.028795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.414564 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/GOLD/GEM 7 - GOLD - 0001.png
+  artifactKey: Guid(84fef7792f55f754eb5fd173d579dbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/GOLD/GEM 7 - GOLD - 0001.png using Guid(84fef7792f55f754eb5fd173d579dbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c115a6c3e551629f5fd8d1ae37bf49fa') in 0.027925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/GOLD/GEM 7 - GOLD - 0011.png
+  artifactKey: Guid(5e894a567ba0ce547914ae8ae31b1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/GOLD/GEM 7 - GOLD - 0011.png using Guid(5e894a567ba0ce547914ae8ae31b1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca360cfdcdfd8f48e476f55d02bb9235') in 0.026409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/GOLD/GEM 7 - GOLD - 0015.png
+  artifactKey: Guid(ecb2e9ba9c540f34fa73be3a71762bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/GOLD/GEM 7 - GOLD - 0015.png using Guid(ecb2e9ba9c540f34fa73be3a71762bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ef7c56acbd3430fb579445843e07e4') in 0.026787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.491014 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/GOLD/GEM 8 - GOLD - 0001.png
+  artifactKey: Guid(898a1f32514611747827541e41c7ea9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/GOLD/GEM 8 - GOLD - 0001.png using Guid(898a1f32514611747827541e41c7ea9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d52cd38d8234ffeb03464098cb1e767') in 0.027390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/karsiori/Sprites/GEM 8/GOLD/GEM 8 - GOLD - 0009.png
+  artifactKey: Guid(484fa4873b930264db60eeba3e7bc19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 8/GOLD/GEM 8 - GOLD - 0009.png using Guid(484fa4873b930264db60eeba3e7bc19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dca3846db62767c3f031c562ca289c') in 0.027269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.900507 seconds.
+  path: Assets/karsiori/Sprites/GEM 9/GOLD/GEM 9 - GOLD - 0001.png
+  artifactKey: Guid(36f6c402af0dc7e4eb57b7e626f72ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 9/GOLD/GEM 9 - GOLD - 0001.png using Guid(36f6c402af0dc7e4eb57b7e626f72ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e88988ba1bfb0c72108ecb5fcabe66') in 0.054859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/karsiori/Sprites/GEM 9/GOLD/GEM 9 - GOLD - 0008.png
+  artifactKey: Guid(b47552e0987c6604d96eb209918fba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 9/GOLD/GEM 9 - GOLD - 0008.png using Guid(b47552e0987c6604d96eb209918fba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b96f6c6b8c8da04212eeeb45a9a6d79') in 0.033548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.775 seconds
+Refreshing native plugins compatible for Editor in 15.26 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.657 seconds
+Domain Reload Profiling: 2425ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (507ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1658ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (982ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (303ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 14.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3027.
+Memory consumption went from 120.8 MB to 120.7 MB.
+Total: 10.524900 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.170200 ms MarkObjects: 9.935200 ms  DeleteObjects: 0.112400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.716484 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/LIGHT GREEN/GEM 7 - LIGHT GREEN - 0001.png
+  artifactKey: Guid(8f61c29dbb999b046a88992cf948c0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/LIGHT GREEN/GEM 7 - LIGHT GREEN - 0001.png using Guid(8f61c29dbb999b046a88992cf948c0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a8769d8e96c7cdb458205fa347665f') in 0.097058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/LIGHT GREEN/GEM 7 - LIGHT GREEN - 0009.png
+  artifactKey: Guid(57a5d08e7bad8aa48a535f9a757202cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/LIGHT GREEN/GEM 7 - LIGHT GREEN - 0009.png using Guid(57a5d08e7bad8aa48a535f9a757202cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455d039c2fc34709b508ed3305150f3d') in 0.021497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/LIGHT GREEN/GEM 7 - LIGHT GREEN - 0014.png
+  artifactKey: Guid(20f3609ec690bcb4f8db3992c22796c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/LIGHT GREEN/GEM 7 - LIGHT GREEN - 0014.png using Guid(20f3609ec690bcb4f8db3992c22796c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10b89c3a548c4a5bf94215bf41a678d') in 0.027627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.906001 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/DARK BLUE/GEM 7 - DARK BLUE - 0001.png
+  artifactKey: Guid(be4ff3fb26d281e48af19419e7af5c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/DARK BLUE/GEM 7 - DARK BLUE - 0001.png using Guid(be4ff3fb26d281e48af19419e7af5c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01d15ecdd9ebbb999715de1f1cfe0cf') in 0.038881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/DARK BLUE/GEM 7 - DARK BLUE - 0007.png
+  artifactKey: Guid(c89c4211c7cd7564fb8dd320264091e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/DARK BLUE/GEM 7 - DARK BLUE - 0007.png using Guid(c89c4211c7cd7564fb8dd320264091e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a955bb28e93229f57fe152b9f5fb339') in 0.034723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Sprites/GEM 7/DARK BLUE/GEM 7 - DARK BLUE - 0011.png
+  artifactKey: Guid(95549f1bc72ad1d489e3025f3d5e1e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 7/DARK BLUE/GEM 7 - DARK BLUE - 0011.png using Guid(95549f1bc72ad1d489e3025f3d5e1e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6862434e65dd3ade024fcee438a48c') in 0.022541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.007367 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GEM CLUSTER 10 - DARK BLUE - Spritesheet.png
+  artifactKey: Guid(2421664dd6a9a0c4780c915dba72eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GEM CLUSTER 10 - DARK BLUE - Spritesheet.png using Guid(2421664dd6a9a0c4780c915dba72eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e98739673b03c0fbeb9bd9d6aeb2f71') in 0.026331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.991913 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0001.png
+  artifactKey: Guid(0f2850ba7f2f6c9448e2f33769fe8b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0001.png using Guid(0f2850ba7f2f6c9448e2f33769fe8b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8f5d5a0dcbd30fd388f96babf9136c') in 0.024346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0016.png
+  artifactKey: Guid(138522c4f334a084db32a4045abefb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0016.png using Guid(138522c4f334a084db32a4045abefb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0512a45037277d3d5e88008181080de6') in 0.023720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0040.png
+  artifactKey: Guid(c4a15e10ea6380146ac06655e2a05fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0040.png using Guid(c4a15e10ea6380146ac06655e2a05fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b3a72073840b444ad89bbe3eb0b047') in 0.019627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0071.png
+  artifactKey: Guid(31112f905d38adf499e3c379028f3439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0071.png using Guid(31112f905d38adf499e3c379028f3439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6d76ed22ce47dc2651c7b8ac0d2464') in 0.019493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0077.png
+  artifactKey: Guid(b736097ed6e101149b517c889e853043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0077.png using Guid(b736097ed6e101149b517c889e853043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a74ace0b16724ecc56996dd976a7a7a') in 0.021011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0029.png
+  artifactKey: Guid(05b0c315b25bfe2458930f1acdc15ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0029.png using Guid(05b0c315b25bfe2458930f1acdc15ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f843ad6e1db928012d76f43acfec98e2') in 0.024098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0036.png
+  artifactKey: Guid(e3b64309dda26864ea40f0fe7b45f417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0036.png using Guid(e3b64309dda26864ea40f0fe7b45f417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5d04236bacbbc10e24522b68f8eb01') in 0.018076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0023.png
+  artifactKey: Guid(804353618856f9c4399b13b89edd1c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0023.png using Guid(804353618856f9c4399b13b89edd1c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daeb458d92e684972572f5b7b682d328') in 0.017105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0063.png
+  artifactKey: Guid(2ed9ce09b82760d4d80553a50724fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0063.png using Guid(2ed9ce09b82760d4d80553a50724fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c619c1f700dc1f3bd0b7cdd4b8fd79') in 0.019939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0048.png
+  artifactKey: Guid(b980a015310db914f9218d3c03444c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0048.png using Guid(b980a015310db914f9218d3c03444c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18967adf8c0dd84beef7d01cf708bb1') in 0.020382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0008.png
+  artifactKey: Guid(cc9b4f0b85c5b534282ae36429cbf81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0008.png using Guid(cc9b4f0b85c5b534282ae36429cbf81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca5419fcdc85772dad392910cd82f60') in 0.018764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0041.png
+  artifactKey: Guid(40ac8a8bf6f80c04599d580a5202da31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0041.png using Guid(40ac8a8bf6f80c04599d580a5202da31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06117bc9b6c7892aee6d538df7b5372a') in 0.019014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0005.png
+  artifactKey: Guid(f28cc8d8512b6424fbd61f110eb76eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0005.png using Guid(f28cc8d8512b6424fbd61f110eb76eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3904dfa12c688a1ef4e206ad26a9b50') in 0.016663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0011.png
+  artifactKey: Guid(1b349b514e6332446847d74f456a415e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0011.png using Guid(1b349b514e6332446847d74f456a415e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c7554dd5d8a0487c8582e452097fa8') in 0.018480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0025.png
+  artifactKey: Guid(6b37e01ac72146841b6c13bbb43c5e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0025.png using Guid(6b37e01ac72146841b6c13bbb43c5e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a0ee20d2ae7a2b69d9939bd091d025') in 0.017501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0046.png
+  artifactKey: Guid(bd5765b385d60c049b23432ac4223b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Sprites/GEM 10/GOLD/GEM CLUSTER 10 - GOLD - 0046.png using Guid(bd5765b385d60c049b23432ac4223b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b96ad6e58c3da9a6f845b8479112aa') in 0.020279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.718 seconds
+Refreshing native plugins compatible for Editor in 19.72 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.705 seconds
+Domain Reload Profiling: 2420ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1706ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (988ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (308ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 16.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3033.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 13.179700 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.148800 ms MarkObjects: 12.434200 ms  DeleteObjects: 0.131100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

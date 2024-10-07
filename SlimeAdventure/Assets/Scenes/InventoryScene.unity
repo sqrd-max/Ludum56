@@ -6691,18 +6691,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b6454cb6177e1e4bb05d83dea6b1af3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blue1Sprite: {fileID: 21300000, guid: 445af21e7b599f74bb0061ee46dcb536, type: 3}
-  blue2Sprite: {fileID: 21300000, guid: 6ff37df8ea968b449bb6478975745590, type: 3}
-  blue3Sprite: {fileID: 21300000, guid: b8bc77514c8f6ed4ca88c710f7662ecd, type: 3}
-  red1Sprite: {fileID: 21300000, guid: 75042d8e59ee5e149abad952fb920c0f, type: 3}
-  red2Sprite: {fileID: 21300000, guid: 28c84f1364523fc489ae24d7008783c4, type: 3}
-  red3Sprite: {fileID: 21300000, guid: 221b7066b147b5d4290a66bade2156ef, type: 3}
-  green1Sprite: {fileID: 21300000, guid: ba413433b3de5014a9f5767e51e504d9, type: 3}
-  green2Sprite: {fileID: 21300000, guid: 05fdf53d8f1eb1b4ba5a1b893fd84861, type: 3}
-  green3Sprite: {fileID: 21300000, guid: 093a95ce80186f8439b5211141d6500a, type: 3}
-  xp1Sprite: {fileID: 21300000, guid: 6457cb6ea949e7c48a0558d7341b3f4f, type: 3}
-  xp2Sprite: {fileID: 21300000, guid: 70f37774ab88ef149a7632ee92397e6b, type: 3}
-  xp3Sprite: {fileID: 21300000, guid: ea4d82f93da02e74392b13575d672dc4, type: 3}
+  blue1Sprite: {fileID: 21300000, guid: 97f1d3a69a53a714ab09de4eb371c6c7, type: 3}
+  blue2Sprite: {fileID: 21300000, guid: 2d7d9ae02b7159843ac7d5ead0f8b89a, type: 3}
+  blue3Sprite: {fileID: 21300000, guid: ace8a02646afeda4880fc3cb14cad705, type: 3}
+  red1Sprite: {fileID: 21300000, guid: 453e9b1833e0a5f418a69a5317e5b852, type: 3}
+  red2Sprite: {fileID: 21300000, guid: 44dc65116207f4b46aa85443dae5ad96, type: 3}
+  red3Sprite: {fileID: 21300000, guid: 7b3876a2b72c44540a4bbd5aaba9e506, type: 3}
+  green1Sprite: {fileID: 21300000, guid: 389eedbb6854bd447b5a9deed594b9a8, type: 3}
+  green2Sprite: {fileID: 21300000, guid: 1f97848f18817cc43ba66da5a2d0ccfa, type: 3}
+  green3Sprite: {fileID: 21300000, guid: f65023889763c7644b5579f0b019da6b, type: 3}
+  xp1Sprite: {fileID: 21300000, guid: 77651e1e8dc750844aeb605d99212b1c, type: 3}
+  xp2Sprite: {fileID: 21300000, guid: 179331c6893686247b181074904e7aa1, type: 3}
+  xp3Sprite: {fileID: 21300000, guid: b47552e0987c6604d96eb209918fba4d, type: 3}
 --- !u!4 &2056077222
 Transform:
   m_ObjectHideFlags: 0

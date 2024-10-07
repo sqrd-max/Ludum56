@@ -1,0 +1,2372 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 15773 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Andrei/Desktop/Unity_Projects/Ludum56/SlimeAdventure
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49226
+Successfully changed project path to: C:/Users/Andrei/Desktop/Unity_Projects/Ludum56/SlimeAdventure
+C:/Users/Andrei/Desktop/Unity_Projects/Ludum56/SlimeAdventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16536] Host "[IP] 192.168.0.252 [Port] 0 [Flags] 2 [Guid] 1147612104 [EditorId] 1147612104 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQJJ33K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16536] Host "[IP] 192.168.0.252 [Port] 0 [Flags] 2 [Guid] 1147612104 [EditorId] 1147612104 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQJJ33K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+The file 'UserSettings/EditorUserSettings.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
+Refreshing native plugins compatible for Editor in 23.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Unity/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andrei/Desktop/Unity_Projects/Ludum56/SlimeAdventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7886 MB
+    Driver:   31.0.12046.24001
+Initialize mono
+Mono path[0] = 'C:/Unity/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006775 seconds.
+- Loaded All Assemblies, in  0.547 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.373 seconds
+Domain Reload Profiling: 919ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (373ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.866 seconds
+Refreshing native plugins compatible for Editor in 12.24 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 1805ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (549ms)
+		LoadAssemblies (482ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (943ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (763ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (217ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 11.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (72.9 KB). Loaded Objects now: 2988.
+Memory consumption went from 112.4 MB to 112.4 MB.
+Total: 9.548300 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.139300 ms MarkObjects: 8.922200 ms  DeleteObjects: 0.229900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 360603.011486 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/RED/Big Vial - RED - Spritesheet.png
+  artifactKey: Guid(a22702b4e21dcf94ba92788d9a913a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/RED/Big Vial - RED - Spritesheet.png using Guid(a22702b4e21dcf94ba92788d9a913a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db7a1ee0c4ab9831617b9cc271cff14') in 0.171448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.244906 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/RED/Sprites/Big Vial - RED - 0000.png
+  artifactKey: Guid(83669ad259d236b43be9d27ce056b9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/RED/Sprites/Big Vial - RED - 0000.png using Guid(83669ad259d236b43be9d27ce056b9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9439434efc1a6599f8d1e8df6e016a5b') in 0.045078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/RED/Sprites/Big Vial - RED - 0004.png
+  artifactKey: Guid(68c74c38428104e41b708923e387cf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/RED/Sprites/Big Vial - RED - 0004.png using Guid(68c74c38428104e41b708923e387cf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14aede777cc17282987082b9ebb54cc') in 0.067031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 42.995287 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle/BLUE/Sprites/Bubbly Brew Bottle - BLUE - 0001.png
+  artifactKey: Guid(5510d2351bae16b4fbaf847c206e6cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle/BLUE/Sprites/Bubbly Brew Bottle - BLUE - 0001.png using Guid(5510d2351bae16b4fbaf847c206e6cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f39d70582439d5c8f7a1d1167b557e') in 0.050453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle/BLUE/Sprites/Bubbly Brew Bottle - BLUE - 0006.png
+  artifactKey: Guid(55eae92490985f1488693f7d0f991033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle/BLUE/Sprites/Bubbly Brew Bottle - BLUE - 0006.png using Guid(55eae92490985f1488693f7d0f991033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1f4eb8199558881b817b639e9357fa') in 0.039513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.945063 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/BLUE
+  artifactKey: Guid(8fe4537ea0e2f18418ee81e9f8afddac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/BLUE using Guid(8fe4537ea0e2f18418ee81e9f8afddac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5ebd5298180acb2f6b97362d2afae0') in 0.000981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.121578 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/BLUE/Sprites/Small Elixir - BLUE -0001.png
+  artifactKey: Guid(eb75a76e552b8004780e7377a50add33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/BLUE/Sprites/Small Elixir - BLUE -0001.png using Guid(eb75a76e552b8004780e7377a50add33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0002e3e8a16d97f61235b748de8362') in 0.039432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/BLUE/Sprites/Small Elixir - BLUE -0005.png
+  artifactKey: Guid(935ce19663886c6498582aa85882b0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/BLUE/Sprites/Small Elixir - BLUE -0005.png using Guid(935ce19663886c6498582aa85882b0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da303068fcac08ddceba41206d3aec52') in 0.031201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 25.021267 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/RED
+  artifactKey: Guid(872563563d2039f429ebb1c0f340a316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/RED using Guid(872563563d2039f429ebb1c0f340a316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c21d16dee10002f5eaf4892f53d241') in 0.000711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.506098 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/RED/Sprites/Small Elixir - RED - 0001.png
+  artifactKey: Guid(06581419484b98444a9c630ba4ec0323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/RED/Sprites/Small Elixir - RED - 0001.png using Guid(06581419484b98444a9c630ba4ec0323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229c1f33fe190dd1a4cd9cd9de44ca26') in 0.042040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/RED/Sprites/Small Elixir - RED - 0005.png
+  artifactKey: Guid(5d8f1cd536fde38419949b8d5d354605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/RED/Sprites/Small Elixir - RED - 0005.png using Guid(5d8f1cd536fde38419949b8d5d354605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9667013cc553deccd5205be1fa8369c9') in 0.040705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 33.709585 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GREEN
+  artifactKey: Guid(ebb360f7046d6d14e86c84a8454d3679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GREEN using Guid(ebb360f7046d6d14e86c84a8454d3679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bec594cad49898bf35ef3304b97384') in 0.000905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.217446 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GREEN/Sprites/Small Elixir - GREEN -0001.png
+  artifactKey: Guid(737730e0171952a4c9f40d5bccf53654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GREEN/Sprites/Small Elixir - GREEN -0001.png using Guid(737730e0171952a4c9f40d5bccf53654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c362f5deb66e8c60b5ed8515411b8a') in 0.054450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 26.636289 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/BLUE
+  artifactKey: Guid(8f3dde27a13f75c489baf6173a6c56ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/BLUE using Guid(8f3dde27a13f75c489baf6173a6c56ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39889b99292517be54cd9d05848e28bb') in 0.000930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.643669 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/BLUE/Sprites/Big Vial - BLUE - 0001.png
+  artifactKey: Guid(6adea76fb8cf02147b1e5597f601f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/BLUE/Sprites/Big Vial - BLUE - 0001.png using Guid(6adea76fb8cf02147b1e5597f601f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eca892629f27e2e19c147bc7dc55871') in 0.071485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/BLUE/Sprites/Big Vial - BLUE - 0005.png
+  artifactKey: Guid(93be680e60033494abf76ad9782c3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/BLUE/Sprites/Big Vial - BLUE - 0005.png using Guid(93be680e60033494abf76ad9782c3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f981504558b2c015e7da038b894d7c') in 0.030037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.754 seconds
+Refreshing native plugins compatible for Editor in 12.34 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.718 seconds
+Domain Reload Profiling: 2468ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1014ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (309ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 16.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3004.
+Memory consumption went from 116.8 MB to 116.7 MB.
+Total: 13.500800 ms (FindLiveObjects: 0.612700 ms CreateObjectMapping: 0.135400 ms MarkObjects: 12.588000 ms  DeleteObjects: 0.162800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.656 seconds
+Refreshing native plugins compatible for Editor in 11.89 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.576 seconds
+Domain Reload Profiling: 2228ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (940ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (269ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 18.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3007.
+Memory consumption went from 118.9 MB to 118.9 MB.
+Total: 13.912400 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.138400 ms MarkObjects: 13.070600 ms  DeleteObjects: 0.238000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.658 seconds
+Refreshing native plugins compatible for Editor in 16.95 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.508 seconds
+Domain Reload Profiling: 2164ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1510ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (875ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 16.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.2 KB). Loaded Objects now: 3010.
+Memory consumption went from 120.9 MB to 120.8 MB.
+Total: 12.387300 ms (FindLiveObjects: 0.436500 ms CreateObjectMapping: 0.115000 ms MarkObjects: 11.628800 ms  DeleteObjects: 0.204400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.644 seconds
+Refreshing native plugins compatible for Editor in 12.23 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.533 seconds
+Domain Reload Profiling: 2174ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (912ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (277ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 16.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3013.
+Memory consumption went from 122.8 MB to 122.8 MB.
+Total: 12.186200 ms (FindLiveObjects: 0.493100 ms CreateObjectMapping: 0.148700 ms MarkObjects: 11.340100 ms  DeleteObjects: 0.201400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.640 seconds
+Refreshing native plugins compatible for Editor in 12.11 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.555 seconds
+Domain Reload Profiling: 2191ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1556ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (922ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (520ms)
+			ProcessInitializeOnLoadMethodAttributes (257ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 12.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3016.
+Memory consumption went from 124.7 MB to 124.7 MB.
+Total: 11.978800 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.101600 ms MarkObjects: 11.482400 ms  DeleteObjects: 0.104500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 278.529322 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar
+  artifactKey: Guid(4fdb94406915b2f4f8aa26e4ff58b37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar using Guid(4fdb94406915b2f4f8aa26e4ff58b37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df2893e223ea57591adba5e0086ec9a') in 0.002745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.547395 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD
+  artifactKey: Guid(b034065e85da68443838a4339934c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD using Guid(b034065e85da68443838a4339934c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67f98d6606c21409e559d185561b221') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073539 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Classic Jar - BLUE_GOLD - Spritesheet.png
+  artifactKey: Guid(fdc747a464d74a1419840715c952ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Classic Jar - BLUE_GOLD - Spritesheet.png using Guid(fdc747a464d74a1419840715c952ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471f276b35c916ee3f17785d7c3f6efd') in 0.088988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.827132 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites
+  artifactKey: Guid(70ee7be53a6e7954ea7d16f5e61cadae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites using Guid(70ee7be53a6e7954ea7d16f5e61cadae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201f70afbeb7b94465788c0f95dfc99a') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.486694 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0000.png
+  artifactKey: Guid(44be63db930c3da45a7baa58fb0bae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0000.png using Guid(44be63db930c3da45a7baa58fb0bae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9171caea62e8c9b91c5ec9498ec4e90a') in 0.020545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001454 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0002.png
+  artifactKey: Guid(17173a4d8eb6f634180c71077390d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0002.png using Guid(17173a4d8eb6f634180c71077390d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02377b4377412ed03560c5d5d450710a') in 0.014750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0004.png
+  artifactKey: Guid(fed9bd9d044073148826d67852127868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0004.png using Guid(fed9bd9d044073148826d67852127868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c266ee9b11a4516245ded7290eddf2') in 0.018114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0009.png
+  artifactKey: Guid(401918b544187ff409cdc49b9de87847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0009.png using Guid(401918b544187ff409cdc49b9de87847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73ad7a944af76d04b117dae6e409329') in 0.021249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0005.png
+  artifactKey: Guid(96cff68ab069c754daea653fc2757276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0005.png using Guid(96cff68ab069c754daea653fc2757276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfeb3c6a60360b1712f47b038823963') in 0.017884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0008.png
+  artifactKey: Guid(b393aaf89f4ced947a4a45ba3cfd59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0008.png using Guid(b393aaf89f4ced947a4a45ba3cfd59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc22e5152d798ece138359b1f5c5655') in 0.025760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0010.png
+  artifactKey: Guid(5b6d03bb2872b8545b32cf3d0f35155d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0010.png using Guid(5b6d03bb2872b8545b32cf3d0f35155d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846f2366e0f60d0dab3f7d02e3e1e375') in 0.024303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0007.png
+  artifactKey: Guid(e3cfa04a8d8e08d46894d324d26f2872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLUE_GOLD/Sprites/Classic Jar - BLUE_GOLD - 0007.png using Guid(e3cfa04a8d8e08d46894d324d26f2872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5ebe981a09287d3219cda594deb58e') in 0.020616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.667324 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising
+  artifactKey: Guid(7319b3a094c9f1146a4c18a669e69b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising using Guid(7319b3a094c9f1146a4c18a669e69b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45f665594cea1d5b1f4f0e2525da830') in 0.000766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.662144 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD
+  artifactKey: Guid(000544bd175404c418c4d3d056be417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD using Guid(000544bd175404c418c4d3d056be417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98699c20fb3920c9b914318fb734399') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027192 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Bubbly Brew Bottle Rising - GOLD - Spritesheet.png
+  artifactKey: Guid(292accfc634bd7b428338e85f4f8e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Bubbly Brew Bottle Rising - GOLD - Spritesheet.png using Guid(292accfc634bd7b428338e85f4f8e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d91efce90c086b99448d49bd4fb446') in 0.020139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.996497 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites
+  artifactKey: Guid(f9959dab2d5429d4c938f3a0ee9fc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites using Guid(f9959dab2d5429d4c938f3a0ee9fc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befda609bdb7192b4d7eb3810e2363d5') in 0.000661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061484 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0000.png
+  artifactKey: Guid(959a93b6adc46d2498eb4c4bd1d2e81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0000.png using Guid(959a93b6adc46d2498eb4c4bd1d2e81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3294a2439a449435a9b5faf7bcf1de65') in 0.042854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0020.png
+  artifactKey: Guid(d324d6750eca9ac4bb70685f79c753cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0020.png using Guid(d324d6750eca9ac4bb70685f79c753cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74630fb47f3e14f9bd6e10e1b107b8d4') in 0.019370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0019.png
+  artifactKey: Guid(6869799083d9b0a4f83029b207cc6976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0019.png using Guid(6869799083d9b0a4f83029b207cc6976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ce1356014acc3a96664b45be8fbc4') in 0.020189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0014.png
+  artifactKey: Guid(6f8603f894d025849bf687dea05d5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0014.png using Guid(6f8603f894d025849bf687dea05d5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22270f24eeaaa840b4644ef7d10a1aec') in 0.020820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0010.png
+  artifactKey: Guid(a48a4cf2ee2a27e469efe154cbf4b0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0010.png using Guid(a48a4cf2ee2a27e469efe154cbf4b0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad193be0430963340d38ed811775513e') in 0.028809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0016.png
+  artifactKey: Guid(39eb1497e9accb64d82a66e5dbe98722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0016.png using Guid(39eb1497e9accb64d82a66e5dbe98722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59b9154bdda3b4f4f41cea83557cc29') in 0.020681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0011.png
+  artifactKey: Guid(32041d9fa60b9ea49bbfb4adfb7ad786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0011.png using Guid(32041d9fa60b9ea49bbfb4adfb7ad786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05bec0d471ee348318ba667e1f15288') in 0.024088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0021.png
+  artifactKey: Guid(ca9785bdd8bcd30459fc7b8a766c480f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Bubbly Brew Bottle Rising/GOLD/Sprites/Bubbly Brew Bottle Rising - GOLD - 0021.png using Guid(ca9785bdd8bcd30459fc7b8a766c480f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f6f51c9ca9a015174b9ad28af7fe4b') in 0.018943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.991023 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD
+  artifactKey: Guid(b5746543553449049b6eb1b67dcb469d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD using Guid(b5746543553449049b6eb1b67dcb469d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35641a70aec90917088895c06f43c439') in 0.000757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053864 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD/Small Elixir - GOLD - Spritesheet.png
+  artifactKey: Guid(cf795e22f9de153488de1b0c97745b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD/Small Elixir - GOLD - Spritesheet.png using Guid(cf795e22f9de153488de1b0c97745b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1759a74c7c6c1212a74ee6529970ff19') in 0.018797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.917968 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD/Sprites
+  artifactKey: Guid(ea0ed7b9fef812a4691dcea2d828be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD/Sprites using Guid(ea0ed7b9fef812a4691dcea2d828be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3432cd434444de91741bf35d27500aff') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060865 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD/Sprites/Small Elixir - GOLD - 0000.png
+  artifactKey: Guid(3a3c9921c581b6a4e9ea22deea888f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD/Sprites/Small Elixir - GOLD - 0000.png using Guid(3a3c9921c581b6a4e9ea22deea888f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c521c046b6512322572589c177099a2') in 0.025557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD/Sprites/Small Elixir - GOLD - 0006.png
+  artifactKey: Guid(cfee8d7625a6760448523ce04568052a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Elixir/GOLD/Sprites/Small Elixir - GOLD - 0006.png using Guid(cfee8d7625a6760448523ce04568052a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894145adce25599b7f5e45c1a586b593') in 0.019845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.919138 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial
+  artifactKey: Guid(f41abd99f2fc67c4a874e05ece699173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial using Guid(f41abd99f2fc67c4a874e05ece699173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb8e95d0e4ef792fcc5e0b17f4cfa06') in 0.000811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.244542 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK
+  artifactKey: Guid(eb89fcd99b0d1e146b4576641c97f523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK using Guid(eb89fcd99b0d1e146b4576641c97f523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664c5a56a729f02ac0285163006efd54') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062375 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK/Small Vial - PINK - Spritesheet.png
+  artifactKey: Guid(4d4f610bd6076084c86032f741a06133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK/Small Vial - PINK - Spritesheet.png using Guid(4d4f610bd6076084c86032f741a06133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfc1bfb193f737e40f5e6ec04535c07') in 0.029883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.440549 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK/Sprites
+  artifactKey: Guid(09ed0e1e439c2d348bef96bfd675179c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK/Sprites using Guid(09ed0e1e439c2d348bef96bfd675179c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948ad68cc60e34c5eaba1f2bbff72554') in 0.000935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052991 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK/Sprites/Small Vial - PINK - 0000.png
+  artifactKey: Guid(4981ba41a4d4ca9429ac81acdf67b6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK/Sprites/Small Vial - PINK - 0000.png using Guid(4981ba41a4d4ca9429ac81acdf67b6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0860656e9399455fa9cb77ae11c2d797') in 0.031215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK/Sprites/Small Vial - PINK - 0005.png
+  artifactKey: Guid(f941a9f85f2c2f7439719bef17673b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/PINK/Sprites/Small Vial - PINK - 0005.png using Guid(f941a9f85f2c2f7439719bef17673b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd457bd6d8d6e56693285e332d16cb18c') in 0.036832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.930776 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/RED/Small Vial - RED - Spritesheet.png
+  artifactKey: Guid(66b229a04a527dc47bd8070cacd956ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/RED/Small Vial - RED - Spritesheet.png using Guid(66b229a04a527dc47bd8070cacd956ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8b585e6b7e1fcb91c26f28a36d4b91') in 0.027388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.242027 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/RED/Sprites/Small Vial - RED - 0000.png
+  artifactKey: Guid(58b209c0f212f2049b6f299bc841d5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/RED/Sprites/Small Vial - RED - 0000.png using Guid(58b209c0f212f2049b6f299bc841d5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa8a54ff68bd2d36aa392809afc1b36') in 0.043081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/RED/Sprites
+  artifactKey: Guid(cfd205dad895dbb488e805f054985e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/RED/Sprites using Guid(cfd205dad895dbb488e805f054985e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e72aa06ef4cdece50fad61f54431660') in 0.001427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/RED/Sprites/Small Vial - RED - 0007.png
+  artifactKey: Guid(ac7c6b90d36bd3d4b81bda7d5a4b3770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/RED/Sprites/Small Vial - RED - 0007.png using Guid(ac7c6b90d36bd3d4b81bda7d5a4b3770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6436a75b16cfa7047240d63d83472c2') in 0.042844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.740623 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE
+  artifactKey: Guid(b2f0da40a1c620c40916c3e6827ccd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE using Guid(b2f0da40a1c620c40916c3e6827ccd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fa76f6d9e3c0082bf591cbce64fb54') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037739 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE/Small Vial - BLUE - Spritesheet.png
+  artifactKey: Guid(00f2f468e1d4df941a1e59757e38a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE/Small Vial - BLUE - Spritesheet.png using Guid(00f2f468e1d4df941a1e59757e38a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb8a3ff72890af4e0bacf4bceacd0c7') in 0.029588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.804550 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE/Sprites
+  artifactKey: Guid(2676d2e24b9e7ab47af6b30a869d989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE/Sprites using Guid(2676d2e24b9e7ab47af6b30a869d989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6473dd6b223913638ffbe58b853391') in 0.000764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067058 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE/Sprites/Small Vial - BLUE - 0000.png
+  artifactKey: Guid(92e1e1a7381178240a960120998c0b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE/Sprites/Small Vial - BLUE - 0000.png using Guid(92e1e1a7381178240a960120998c0b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1517431e1c47aa224e102b248623c95b') in 0.034788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE/Sprites/Small Vial - BLUE - 0007.png
+  artifactKey: Guid(7508cea5a9e0c6e409f6bad6dc37cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/BLUE/Sprites/Small Vial - BLUE - 0007.png using Guid(7508cea5a9e0c6e409f6bad6dc37cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6615456e7eb666514f0cac48a1e5c7d0') in 0.024108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.521082 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN
+  artifactKey: Guid(c786e4e9b8e502b439bd5be311afd743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN using Guid(c786e4e9b8e502b439bd5be311afd743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d22173bd5916ff54ea12f5a91a3e32') in 0.000817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033027 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN/Small Vial - GREEN - Spritesheet.png
+  artifactKey: Guid(bb2508603edfa1d49ba8495df6bfd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN/Small Vial - GREEN - Spritesheet.png using Guid(bb2508603edfa1d49ba8495df6bfd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92659342d3f3b9112796fe27b0704091') in 0.025926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.718359 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN/Sprites
+  artifactKey: Guid(baad1afe9bb63104c92d6039eb7cb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN/Sprites using Guid(baad1afe9bb63104c92d6039eb7cb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954ca8604150f25e8c6210845b0cbffe') in 0.000818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046169 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN/Sprites/Small Vial - GREEN - 0000.png
+  artifactKey: Guid(09b57954bfb659442adb536a6770adf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN/Sprites/Small Vial - GREEN - 0000.png using Guid(09b57954bfb659442adb536a6770adf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3da24a94061acb40764b87c5875664') in 0.044504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN/Sprites/Small Vial - GREEN - 0008.png
+  artifactKey: Guid(179246564eb7cc44598c49ab68569489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Small Vial/GREEN/Sprites/Small Vial - GREEN - 0008.png using Guid(179246564eb7cc44598c49ab68569489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7df3519bdcb3455c541c5559cd88d3') in 0.023493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.781 seconds
+Refreshing native plugins compatible for Editor in 12.53 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.654 seconds
+Domain Reload Profiling: 2431ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (535ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1025ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (561ms)
+			ProcessInitializeOnLoadMethodAttributes (313ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 17.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.2 KB). Loaded Objects now: 3033.
+Memory consumption went from 126.6 MB to 126.5 MB.
+Total: 14.413200 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.101500 ms MarkObjects: 13.725900 ms  DeleteObjects: 0.289300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 17.54 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.703 seconds
+Domain Reload Profiling: 2419ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1013ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (540ms)
+			ProcessInitializeOnLoadMethodAttributes (318ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 16.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3036.
+Memory consumption went from 128.7 MB to 128.7 MB.
+Total: 17.529000 ms (FindLiveObjects: 0.467400 ms CreateObjectMapping: 0.144000 ms MarkObjects: 16.719700 ms  DeleteObjects: 0.190300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.805601 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic
+  artifactKey: Guid(9c4e33b1700445947a48b27c8457ae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic using Guid(9c4e33b1700445947a48b27c8457ae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e8fca78f28d371ea73260734b6292f') in 0.002803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.939679 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK
+  artifactKey: Guid(c4491f646964450478f24372b2e70885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK using Guid(c4491f646964450478f24372b2e70885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c04abde0a0ff890478591ed7e2b2b0') in 0.000788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044547 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Large Tonic - PINK - Spritesheet.png
+  artifactKey: Guid(0f28c06d60c75fc418bcedae5135d18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Large Tonic - PINK - Spritesheet.png using Guid(0f28c06d60c75fc418bcedae5135d18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14964d81cd0e6687fb24b1ac9e15b76') in 0.100666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.036728 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites
+  artifactKey: Guid(f422f077eca44cc48b7d8f3163c49676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites using Guid(f422f077eca44cc48b7d8f3163c49676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4af1a317b0e8758aca93ca07ca45d1d') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054665 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0000.png
+  artifactKey: Guid(f8ba4146a9131e048b5177a905363c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0000.png using Guid(f8ba4146a9131e048b5177a905363c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2638ed8aece3458957c7b2a0ce94ce') in 0.034379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015776 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0005.png
+  artifactKey: Guid(dc69d0ad5a1b1a744af1bbb826ef4b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0005.png using Guid(dc69d0ad5a1b1a744af1bbb826ef4b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628c280c3dd741269dd754d4a3341237') in 0.027852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0003.png
+  artifactKey: Guid(0659705cc806f574391bfc86891d0467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0003.png using Guid(0659705cc806f574391bfc86891d0467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfb41e3bf86d464620d29de7976a779') in 0.021679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0002.png
+  artifactKey: Guid(f9fd8960e684af84e84a897efd6707ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0002.png using Guid(f9fd8960e684af84e84a897efd6707ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3045ae1bb2e7cbed83d5bae93a2284c') in 0.031815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0008.png
+  artifactKey: Guid(52acc81a1fab8c645a717ade0ceb21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0008.png using Guid(52acc81a1fab8c645a717ade0ceb21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452b18d303f75b9e90d45c0cd1b00064') in 0.020843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0006.png
+  artifactKey: Guid(acdee23395dbfd548819c9f816f07f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Tonic/PINK/Sprites/Large Tonic - PINK - 0006.png using Guid(acdee23395dbfd548819c9f816f07f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28db02578e0d4448ffb93320fdaa08eb') in 0.020514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.310128 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar
+  artifactKey: Guid(780ea37edb3c15840b7cceac2915ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar using Guid(780ea37edb3c15840b7cceac2915ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e274cc4607f282bfa3eb22dc1bdbb72d') in 0.000753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.979792 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD
+  artifactKey: Guid(df981f652e2a39747a58041daae5ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD using Guid(df981f652e2a39747a58041daae5ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1507dd635737673125cacb86a310d2') in 0.000700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071637 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Large Jar - BLUE_GOLD - Spritesheet.png
+  artifactKey: Guid(a4cb0c77b1d29f5409cec25c0a96c6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Large Jar - BLUE_GOLD - Spritesheet.png using Guid(a4cb0c77b1d29f5409cec25c0a96c6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0c02efb692ceba1a397d427b8f8899') in 0.018920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.113425 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites
+  artifactKey: Guid(2c97841f24635f84aa1b586781d1b490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites using Guid(2c97841f24635f84aa1b586781d1b490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964afc87421c326ac9817961236509bf') in 0.000732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059134 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0000.png
+  artifactKey: Guid(eee5edfa215514840835674f332b170a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0000.png using Guid(eee5edfa215514840835674f332b170a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e2217d07943b99c933546aec11a3fb') in 0.034896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0021.png
+  artifactKey: Guid(cf8e00ef701c4bb46858b435f001fbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0021.png using Guid(cf8e00ef701c4bb46858b435f001fbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caa03c349fa98c6df41a3d50802458e') in 0.017541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0008.png
+  artifactKey: Guid(50aade982fa8e494f95af106fd3b0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0008.png using Guid(50aade982fa8e494f95af106fd3b0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fd2017580794b781a6b8f51240f740') in 0.018780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0009.png
+  artifactKey: Guid(5e2e0620966154643a85bd2473015ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0009.png using Guid(5e2e0620966154643a85bd2473015ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd7d63c2b5ea8ef600d97c365bef2bb') in 0.021446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0018.png
+  artifactKey: Guid(4f3cd40ec1ec76449a68a7540f07e52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0018.png using Guid(4f3cd40ec1ec76449a68a7540f07e52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0bb8273c977885feb353d95cbe063e') in 0.019486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0012.png
+  artifactKey: Guid(42105412392fbfa4c9ec75a5caf6a334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0012.png using Guid(42105412392fbfa4c9ec75a5caf6a334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581c2c9a09deaa17ab92812927d3a260') in 0.020629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0017.png
+  artifactKey: Guid(3dab0a372910bf947bf389b80d81b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0017.png using Guid(3dab0a372910bf947bf389b80d81b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dc55c65dc0f3f09da64464fc3d8a6a') in 0.020231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0020.png
+  artifactKey: Guid(d9c10ac94a5c9ab4b8ec8f8b059def76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0020.png using Guid(d9c10ac94a5c9ab4b8ec8f8b059def76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea27fde057e2fa5ce11a85864ef654fa') in 0.025492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0005.png
+  artifactKey: Guid(4265acb9772b18748a3c24b052ac542a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/BLUE_GOLD/Sprites/Large Jar - BLUE_GOLD - 0005.png using Guid(4265acb9772b18748a3c24b052ac542a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee30d4b6c0c01178a317f4b00b468c5') in 0.019831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.765092 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle
+  artifactKey: Guid(5c3eff0bd14962c438e32a417b11140b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle using Guid(5c3eff0bd14962c438e32a417b11140b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75ce9e0fddaab76cc1bae9d3a6282bb') in 0.000751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.994272 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN
+  artifactKey: Guid(b837b851cabfc554bbeb2e34b3232167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN using Guid(b837b851cabfc554bbeb2e34b3232167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825a709f835ce25587a7426ee7903b22') in 0.000785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059601 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN/Large Bottle - GREEN - Spritesheet.png
+  artifactKey: Guid(dcea24ada30e9a24381b4606ea4b410a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN/Large Bottle - GREEN - Spritesheet.png using Guid(dcea24ada30e9a24381b4606ea4b410a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380934258ab3e9df3a954a1c40de4569') in 0.026795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.754006 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN/Sprites
+  artifactKey: Guid(a61f48f803f62584399c831b782faa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN/Sprites using Guid(a61f48f803f62584399c831b782faa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3156e1e4023284828c5d967e887c1877') in 0.000788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.091432 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN/Sprites/Large Bottle - GREEN - 0000.png
+  artifactKey: Guid(1be594021fa326440aba6560b216777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN/Sprites/Large Bottle - GREEN - 0000.png using Guid(1be594021fa326440aba6560b216777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456465ef20c4fb8cf4275d07ed3e77cd') in 0.049738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN/Sprites/Large Bottle - GREEN - 0009.png
+  artifactKey: Guid(f6116c257becf6b4fb7fcff91edbcda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Bottle/GREEN/Sprites/Large Bottle - GREEN - 0009.png using Guid(f6116c257becf6b4fb7fcff91edbcda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac48eaa75bf2f7f4f71a7e7243a08bb') in 0.030648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.424792 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK
+  artifactKey: Guid(db0364221bfd8774da9d314a92a0e21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK using Guid(db0364221bfd8774da9d314a92a0e21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e39c716b84369bb50b66762f0d4ee6') in 0.000965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055572 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Classic Jar - BLACK - Spritesheet.png
+  artifactKey: Guid(5ebeea9e6f9c19b4088685a9b2d2b98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Classic Jar - BLACK - Spritesheet.png using Guid(5ebeea9e6f9c19b4088685a9b2d2b98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061e9b41dd44dcb74bc66fc0c6a4b0d6') in 0.026740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.606450 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Sprites
+  artifactKey: Guid(6b164f5222c84d34ba80786efaebb154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Sprites using Guid(6b164f5222c84d34ba80786efaebb154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bbb77b53f718e494395885757e0a2b') in 0.000831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066613 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Sprites/Classic Jar - BLACK - 0000.png
+  artifactKey: Guid(4a65e14a80435f543ae18e8c304de14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Sprites/Classic Jar - BLACK - 0000.png using Guid(4a65e14a80435f543ae18e8c304de14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da74cfbaca9764bf089c1fe42e75a492') in 0.061273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Sprites/Classic Jar - BLACK - 0010.png
+  artifactKey: Guid(e6cedb95d3c8567499b20db4cd397c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Sprites/Classic Jar - BLACK - 0010.png using Guid(e6cedb95d3c8567499b20db4cd397c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63938fe6b605bc510e3bfd25f442259') in 0.031666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Sprites/Classic Jar - BLACK - 0005.png
+  artifactKey: Guid(5490e81e0b386b14098d2ac5ba9bbc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Classic Jar/BLACK/Sprites/Classic Jar - BLACK - 0005.png using Guid(5490e81e0b386b14098d2ac5ba9bbc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1d93d295fd4a389b8a8d04bbdc8dae') in 0.026608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.928303 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN
+  artifactKey: Guid(4c50687dfa65c3d48a1d9dff7e55f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN using Guid(4c50687dfa65c3d48a1d9dff7e55f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc6e43753bb69e8eb85fa14b161c25a') in 0.000872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035059 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Large Jar - GREEN - Spritesheet.png
+  artifactKey: Guid(09dc84df48679d143bf64ea289b1585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Large Jar - GREEN - Spritesheet.png using Guid(09dc84df48679d143bf64ea289b1585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73b9ea3d9ef3801fe525f0ac7cf9b12') in 0.023605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.837738 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites
+  artifactKey: Guid(57abbafee447c1344be113e84a8317c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites using Guid(57abbafee447c1344be113e84a8317c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b529d0961496dab0ff7f235b4aeee2a8') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.072251 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0000.png
+  artifactKey: Guid(95919049fb3a70c44a60e76c386b8471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0000.png using Guid(95919049fb3a70c44a60e76c386b8471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42645a5afdaf8f52c31de0a0e8706c9b') in 0.044252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0021.png
+  artifactKey: Guid(8780acb4be47ff4429a313ea50e273c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0021.png using Guid(8780acb4be47ff4429a313ea50e273c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fed17a0f0f234959ea89056ff566d0a') in 0.040198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0016.png
+  artifactKey: Guid(964fc76056e6ecf42b2b52725462a2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0016.png using Guid(964fc76056e6ecf42b2b52725462a2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75616371978a86eedb38964a8b3f2b8f') in 0.037547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0010.png
+  artifactKey: Guid(a0c5a6ffb69a44346b59ff4f6f1910ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0010.png using Guid(a0c5a6ffb69a44346b59ff4f6f1910ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef88a5ead6074756c47e130605b44afa') in 0.027706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0017.png
+  artifactKey: Guid(eaaa67e90a6063b4983d939aab54ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Large Jar/GREEN/Sprites/Large Jar - GREEN - 0017.png using Guid(eaaa67e90a6063b4983d939aab54ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560869effed06130dc57a8bf4d1bb2da') in 0.025118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 17.503421 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN
+  artifactKey: Guid(2fc70c4a7af92b2459fba9979e0f4de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN using Guid(2fc70c4a7af92b2459fba9979e0f4de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701d1d2314f4e1e0426a19073ce5309d') in 0.000867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033081 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN/Big Vial - GREEN - Spritesheet.png
+  artifactKey: Guid(d89c69c343e74704e99db8a4f27f01ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN/Big Vial - GREEN - Spritesheet.png using Guid(d89c69c343e74704e99db8a4f27f01ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a4c454c8eab27a48840414c6a6e102') in 0.032941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.725064 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN/Sprites
+  artifactKey: Guid(615fb7e58e8e4c647abea157a72a9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN/Sprites using Guid(615fb7e58e8e4c647abea157a72a9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33eacdcb7c4539aa9db6a89c4af11a44') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.069089 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN/Sprites/Big Vial - GREEN - 0000.png
+  artifactKey: Guid(f58d95917c7d7af48bc6cd7cd7e4152b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN/Sprites/Big Vial - GREEN - 0000.png using Guid(f58d95917c7d7af48bc6cd7cd7e4152b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a196683b9025f8a30057af2a872a164') in 0.033030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN/Sprites/Big Vial - GREEN - 0007.png
+  artifactKey: Guid(c3f23d75935bdfa4982a71bbb6cf1c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/Pixel Potion Pack - Animated/Sprites/Big Vial/GREEN/Sprites/Big Vial - GREEN - 0007.png using Guid(c3f23d75935bdfa4982a71bbb6cf1c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f6973bd8a10294e22a89c722767c5e') in 0.025066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 14.03 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.652 seconds
+Domain Reload Profiling: 2322ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (452ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (994ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (530ms)
+			ProcessInitializeOnLoadMethodAttributes (314ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 17.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3052.
+Memory consumption went from 130.8 MB to 130.8 MB.
+Total: 12.910100 ms (FindLiveObjects: 0.636300 ms CreateObjectMapping: 0.189400 ms MarkObjects: 11.942300 ms  DeleteObjects: 0.139300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 14.52 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.685 seconds
+Domain Reload Profiling: 2424ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1028ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (561ms)
+			ProcessInitializeOnLoadMethodAttributes (307ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 17.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3055.
+Memory consumption went from 133.0 MB to 132.9 MB.
+Total: 13.169000 ms (FindLiveObjects: 0.423200 ms CreateObjectMapping: 0.137200 ms MarkObjects: 12.399000 ms  DeleteObjects: 0.207300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 15.33 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.587 seconds
+Domain Reload Profiling: 2261ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (433ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (943ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 17.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.2 KB). Loaded Objects now: 3058.
+Memory consumption went from 134.9 MB to 134.9 MB.
+Total: 13.138400 ms (FindLiveObjects: 0.690700 ms CreateObjectMapping: 0.183400 ms MarkObjects: 11.809200 ms  DeleteObjects: 0.451400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 532.072011 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG
+  artifactKey: Guid(156af2f354d93f441a2f6f24839c9394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG using Guid(156af2f354d93f441a2f6f24839c9394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abcb61c01d5c4b57fdb8b5a23c90ede') in 0.003008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.352484 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Scene
+  artifactKey: Guid(af5b4aeff9eb5db4bac160c7d1fcd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Scene using Guid(af5b4aeff9eb5db4bac160c7d1fcd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28bc3dd9554f24ccf335b4d9ce4edcb') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.877927 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Dark.mat
+  artifactKey: Guid(9ef09833dc2c3404d88335dc4ee33fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Dark.mat using Guid(9ef09833dc2c3404d88335dc4ee33fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fb49634f14c7cb2622abbef71b5d3f') in 0.303965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Trans.mat
+  artifactKey: Guid(6320d51ee137b4e42b6cb01f30c65ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Trans.mat using Guid(6320d51ee137b4e42b6cb01f30c65ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa4938194571641c5d0ea363b03dea0') in 0.028903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Dark.mat
+  artifactKey: Guid(899a7f458dad9a740869a20c3e3b2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Dark.mat using Guid(899a7f458dad9a740869a20c3e3b2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd123117d347f368e80eaece1d6eab0ec') in 0.013195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat
+  artifactKey: Guid(bb6f9bec926368b4eb8e5590da43eee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat using Guid(bb6f9bec926368b4eb8e5590da43eee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c164ce55b28639d566be5fb11092b0') in 0.012358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline White.mat
+  artifactKey: Guid(fa6817dfb0f48b946aed8e1043559b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline White.mat using Guid(fa6817dfb0f48b946aed8e1043559b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908d0d2b4a6a7891e6ea6c255aa9bda2') in 0.023554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.297427 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Shader
+  artifactKey: Guid(3f428f9fc50eea8409359a8b09b85c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Shader using Guid(3f428f9fc50eea8409359a8b09b85c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795bd4556058ee1dfb615f9dd4b5d800') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.582998 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture
+  artifactKey: Guid(2b31c5cb4593d414787a268307422aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture using Guid(2b31c5cb4593d414787a268307422aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7868739538d2bcbe658ca92e70c64451') in 0.000828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.975568 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Apple.png
+  artifactKey: Guid(da7129ed6a246f048a49d8d97de2d2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Apple.png using Guid(da7129ed6a246f048a49d8d97de2d2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c621cc564bacfd62e60d467e83a951') in 0.066988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Green Apple.png
+  artifactKey: Guid(c1d0e6764d9c5f8458571840fb1d57d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Green Apple.png using Guid(c1d0e6764d9c5f8458571840fb1d57d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6578de6878096bcc3014aff448cd83af') in 0.027503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Wine.png
+  artifactKey: Guid(ea55e0ae186d59d41a0b270559045dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Wine.png using Guid(ea55e0ae186d59d41a0b270559045dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bc0d91b0f3314d41f5cb547b48bd64') in 0.028473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Mushroom.png
+  artifactKey: Guid(966ff550585ec504896a28b55fd7281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Mushroom.png using Guid(966ff550585ec504896a28b55fd7281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb7e94e2f3cbc83c5dca0a93b0adb6f') in 0.023494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food
+  artifactKey: Guid(3fe54edd3debca64ebe1ec161236a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food using Guid(3fe54edd3debca64ebe1ec161236a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f5379215f35df336cc3ba39039b2b1') in 0.000744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.833910 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Fabric.png
+  artifactKey: Guid(e577f30c6bd976a429addedf4c4ad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Fabric.png using Guid(e577f30c6bd976a429addedf4c4ad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c1ea035ff39ed35f7682ca6b0f8db5') in 0.051393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.909301 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion
+  artifactKey: Guid(f0d3f31025247424590e3740f1985791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion using Guid(f0d3f31025247424590e3740f1985791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76949280c176f14b94f827d8b949e44') in 0.000783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.405081 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Coal.png
+  artifactKey: Guid(7d58fd33da0c1714e83ed3c55ae05bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Coal.png using Guid(7d58fd33da0c1714e83ed3c55ae05bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd311fc1a47cc6325f7976b575d1fdfe6') in 0.050732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Ruby.png
+  artifactKey: Guid(67d92be28ed43314bbaf848a1d873f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Ruby.png using Guid(67d92be28ed43314bbaf848a1d873f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5069e21511e1dd4170158ea23c4e0358') in 0.038568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Sapphire.png
+  artifactKey: Guid(3c9805506cdde8f44889fc034ab0097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Sapphire.png using Guid(3c9805506cdde8f44889fc034ab0097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a7abaa5293c5325d61ec5f0adf284e') in 0.028667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Diamond.png
+  artifactKey: Guid(3faa68d4e2f05f04786133598667ac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Diamond.png using Guid(3faa68d4e2f05f04786133598667ac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac060afc4c8329243a9b745166b1da5') in 0.028810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.767 seconds
+Refreshing native plugins compatible for Editor in 16.30 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.793 seconds
+Domain Reload Profiling: 2555ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (504ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1795ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1065ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (591ms)
+			ProcessInitializeOnLoadMethodAttributes (321ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 16.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3102.
+Memory consumption went from 137.0 MB to 136.9 MB.
+Total: 12.306600 ms (FindLiveObjects: 0.531000 ms CreateObjectMapping: 0.165500 ms MarkObjects: 11.405900 ms  DeleteObjects: 0.202200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.661 seconds
+Refreshing native plugins compatible for Editor in 18.36 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.576 seconds
+Domain Reload Profiling: 2232ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (954ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (531ms)
+			ProcessInitializeOnLoadMethodAttributes (283ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 16.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.2 KB). Loaded Objects now: 3105.
+Memory consumption went from 139.2 MB to 139.1 MB.
+Total: 15.491500 ms (FindLiveObjects: 0.689300 ms CreateObjectMapping: 0.139700 ms MarkObjects: 14.505300 ms  DeleteObjects: 0.155200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.619 seconds
+Refreshing native plugins compatible for Editor in 18.57 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.609 seconds
+Domain Reload Profiling: 2225ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (286ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1610ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (969ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (543ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 16.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3108.
+Memory consumption went from 141.1 MB to 141.0 MB.
+Total: 11.791000 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.116900 ms MarkObjects: 11.021300 ms  DeleteObjects: 0.225300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.641 seconds
+Refreshing native plugins compatible for Editor in 12.66 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.587 seconds
+Domain Reload Profiling: 2223ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1589ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (976ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (293ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 15.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.2 KB). Loaded Objects now: 3111.
+Memory consumption went from 143.0 MB to 143.0 MB.
+Total: 13.820100 ms (FindLiveObjects: 0.505100 ms CreateObjectMapping: 0.193800 ms MarkObjects: 12.923900 ms  DeleteObjects: 0.195400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 236.408113 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Blue Potion.png
+  artifactKey: Guid(b7f77607c82ea4142a2070c0e37e1756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Blue Potion.png using Guid(b7f77607c82ea4142a2070c0e37e1756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22565731e6b956b1d5d8b65ec86544') in 0.203121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 3.png
+  artifactKey: Guid(7b3876a2b72c44540a4bbd5aaba9e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 3.png using Guid(7b3876a2b72c44540a4bbd5aaba9e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb2541d3bce795b13e198c21f69f71a') in 0.024856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Water Bottle.png
+  artifactKey: Guid(3a481bc5b3972b54ab4918d5226622af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Water Bottle.png using Guid(3a481bc5b3972b54ab4918d5226622af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ee9159f572d9908ba43243e4cf21fc') in 0.032710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Green Potion 3.png
+  artifactKey: Guid(f65023889763c7644b5579f0b019da6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Green Potion 3.png using Guid(f65023889763c7644b5579f0b019da6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4129974e907501337cb2dc388e904f') in 0.024410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 2.png
+  artifactKey: Guid(44dc65116207f4b46aa85443dae5ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 2.png using Guid(44dc65116207f4b46aa85443dae5ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32a640b1a0b3d905db9574b94d47b4b') in 0.022936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Empty Bottle.png
+  artifactKey: Guid(bbc53608878294d46a1e3b694ee0a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Empty Bottle.png using Guid(bbc53608878294d46a1e3b694ee0a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bd3aad31005fc571e1ea5c7be07992') in 0.021822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.749 seconds
+Refreshing native plugins compatible for Editor in 12.82 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.723 seconds
+Domain Reload Profiling: 2466ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (493ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1032ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (565ms)
+			ProcessInitializeOnLoadMethodAttributes (317ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 19.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3114.
+Memory consumption went from 144.7 MB to 144.6 MB.
+Total: 15.484600 ms (FindLiveObjects: 0.564300 ms CreateObjectMapping: 0.130700 ms MarkObjects: 14.597600 ms  DeleteObjects: 0.188900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.725 seconds
+Refreshing native plugins compatible for Editor in 17.99 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.653 seconds
+Domain Reload Profiling: 2374ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (476ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (949ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (286ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 15.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (47.1 KB). Loaded Objects now: 3117.
+Memory consumption went from 146.9 MB to 146.8 MB.
+Total: 13.678100 ms (FindLiveObjects: 0.582200 ms CreateObjectMapping: 0.222300 ms MarkObjects: 12.644600 ms  DeleteObjects: 0.226600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
